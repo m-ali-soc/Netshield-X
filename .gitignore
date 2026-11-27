@@ -1,0 +1,36 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Logs & captures
+*.log
+*.pcap
+*.pcapng
+eve.json
+
+# Docker
+docker-compose.override.yml
+
+# Database
+*.sqlite3
+pgdata/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
